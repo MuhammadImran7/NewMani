@@ -23,6 +23,13 @@
     font-weight: 700;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('@/assets/fonts/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+         url('@/assets/fonts/PlusJakartaSans-SemiBoldItalic.woff2') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
   
   /* Optional: Apply the font globally */
   body {
