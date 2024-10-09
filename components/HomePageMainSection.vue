@@ -9,12 +9,12 @@
         <img :src="right2" alt="" class="absolute right-0 right-maroon rotating-image">
         <img :src="right3" alt="" class="absolute right-0 right-green rotating-image">
         <img :src="right4" alt="" class="absolute right-0 right-last rotating-image1">
-        <div class="flex flex-col items-center justify-center text-center text-white relative z-10 h-3/4 font-sans">
-          <h1 class="text-4xl md:text-6xl font-bold mb-4 text-black font-sans">Uncover the possibilities
+        <div class="flex flex-col items-center justify-center text-center text-white relative z-10 h-3/4 ">
+          <h1 class="text-4xl md:text-6xl font-bold mb-4 text-black ">Uncover the possibilities
             <br> our specialists can offer you.
           </h1>
-          <p class="text-xl md:text-2xl mb-6 text-gray-500 font-sans">We plan, implement, and support your digital workplace technology.</p>
-          <button class="hover:bg-[#01d486] text-gray-800 font-bold py-4 px-12 rounded-lg shadow hover:text-white font-sans">
+          <p class="text-xl md:text-2xl mb-6 text-gray-500 ">We plan, implement, and support your digital workplace technology.</p>
+          <button class="hover:bg-[#01d486] text-gray-800 font-bold py-4 px-12 rounded-lg shadow hover:text-white ">
             Tell Us How We Can Help You...
           </button>
         </div>

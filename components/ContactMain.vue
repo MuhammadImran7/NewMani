@@ -13,19 +13,19 @@
             </g>
           </svg>
         </span>
-        <span class="mtech-contact-text font-sans">Let’s talk</span>
+        <span class="mtech-contact-text ">Let’s talk</span>
       </div>
-      <h1 class="mtech-contact-main-head my-3 font-sans">
+      <h1 class="mtech-contact-main-head my-3 ">
         Talk to our product analytics expert
       </h1>
-      <p class="mtech-contact-text-inner font-sans">
+      <p class="mtech-contact-text-inner ">
         Understand, guide, implement. That’s what our IT experts do best, and they’re standing by to create your tailor-made solution!
       </p>
       <img src="https://mountaintech.pk/wp-content/uploads/2024/08/contact.webp" alt="Meeting Room" class="w-full h-auto mb-4 lg:mb-5">
       <div class="space-y-4">
         <div class="w-full">
           <div class="mtech-address">
-            <h3 class="contact-address-head mb-3 font-sans">Islamabad, Pakistan</h3>
+            <h3 class="contact-address-head mb-3 ">Islamabad, Pakistan</h3>
             <div class="flex items-baseline mb-3">
               <span class="address-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 16 16">
@@ -36,7 +36,7 @@
                   </g>
                 </svg>
               </span>
-              <span class="mtech-address-text font-sans ps-2">Mujahid Business Center 36, Service road north, I-9/2</span>
+              <span class="mtech-address-text  ps-2">Mujahid Business Center 36, Service road north, I-9/2</span>
             </div>
           </div>
         </div>
@@ -49,55 +49,55 @@
         <div class="mtech-contact mt-12">
           <div class="space-y-3">
               <div class="flex gap-5">
-                <label class="mtech-contact-label lg:w-1/2 w-full font-sans">
+                <label class="mtech-contact-label lg:w-1/2 w-full ">
                 First Name*
                 <input v-model="form.firstName" type="text" name="firstName" placeholder="Muhammad" class="w-full p-2 border" required>
               </label>
-              <label class="mtech-contact-label lg:w-1/2 w-full font-sans">
+              <label class="mtech-contact-label lg:w-1/2 w-full ">
                 Last Name*
                 <input v-model="form.lastName" type="text" name="lastName" placeholder="Ali" class="w-full p-2 border" required>
               </label>
               </div>
             <div class="w-full">
-              <label class="mtech-contact-label font-sans">
+              <label class="mtech-contact-label ">
                 Email Address*
                 <input v-model="form.email" type="email" name="email" placeholder="mail@company.com" class="w-full p-2 border" required>
               </label>
             </div>
             <div class="w-full">
-              <label class="mtech-contact-label font-sans">
+              <label class="mtech-contact-label ">
                 Phone Number
                 <input v-model="form.phone" type="tel" name="phone" placeholder="0922345678" class="w-full p-2 border">
               </label>
             </div>
             <div class="w-full">
-              <label class="mtech-contact-label font-sans">
+              <label class="mtech-contact-label ">
                 Company
                 <input v-model="form.company" type="text" name="company" placeholder="MountainTech" class="w-full p-2 border">
               </label>
             </div>
             <div class="w-full">
-              <label class="mtech-contact-label font-sans">
+              <label class="mtech-contact-label ">
                 What is your inquiry about?
                 <select v-model="form.inquiry" name="Typeofenquiry" class="w-full p-2 border">
-                  <option value=" font-sans ">—Please choose an option—</option>
-                  <option value=" font-sans Frontend">Frontend</option>
-                  <option value=" font-sans Backend">Backend</option>
-                  <option value=" font-sans Design">Design</option>
-                  <option value=" font-sans Q.A">Q.A</option>
-                  <option value=" font-sans Network">Network</option>
-                  <option value=" font-sans Microsoft Dynamics">Microsoft Dynamics</option>
+                  <option value="  ">—Please choose an option—</option>
+                  <option value="  Frontend">Frontend</option>
+                  <option value="  Backend">Backend</option>
+                  <option value="  Design">Design</option>
+                  <option value="  Q.A">Q.A</option>
+                  <option value="  Network">Network</option>
+                  <option value="  Microsoft Dynamics">Microsoft Dynamics</option>
                 </select>
               </label>
             </div>
             <div class="w-full">
-              <label class="mtech-contact-label font-sans">
+              <label class="mtech-contact-label ">
                 How we can help you?
                 <textarea v-model="form.message" name="message" placeholder="Enter your message..." class="w-full p-2 border"></textarea>
               </label>
             </div>
             <div class="w-full">
-              <button type="submit" class="w-full py-3 px-4 bg-[#01d486] hover:bg-black text-white font-semibold font-sans">
+              <button type="submit" class="w-full py-3 px-4 bg-[#01d486] hover:bg-black text-white font-semibold ">
                 Speak to an Expert
               </button>
             </div>

@@ -5,27 +5,27 @@
         <!-- Left Column -->
         <div class="lg:w-1/2 md:w-1/2 pt-10">
           <p
-            class="text-center md:text-left uppercase text-[14px] font-bold text-[#01d486] tracking-wide mb-2 font-sans"
+            class="text-center md:text-left uppercase text-[14px] font-bold text-[#01d486] tracking-wide mb-2 "
           >
             WHAT WE DO
           </p>
           <h2
-            class="text-center md:text-left text-[32px] font-bold leading-[1.5em] mb-4 font-sans"
+            class="text-center md:text-left text-[32px] font-bold leading-[1.5em] mb-4 "
           >
             We will help you overcome your technology challenges
           </h2>
-          <ul class="list-none p-4 font-sans">
-            <li class="pb-2 what-we-about-list font-sans">
+          <ul class="list-none p-4 ">
+            <li class="pb-2 what-we-about-list ">
               Our best-of-breed IT solutions will significantly drive efficiency
               and foster transformative change
             </li>
-            <li class="pb-2 what-we-about-list font-sans">
+            <li class="pb-2 what-we-about-list ">
               Refine your data for better-informed decision making
             </li>
-            <li class="pb-2 what-we-about-list font-sans">
+            <li class="pb-2 what-we-about-list ">
               Get ultra-fast business-class connectivity and internet solutions
             </li>
-            <li class="pb-2 what-we-about-list font-sans">
+            <li class="pb-2 what-we-about-list ">
               Protect your business with our leading business continuity
               solutions
             </li>
@@ -35,13 +35,13 @@
           >
             <NuxtLink
               to="/contact"
-              class="bg-[#01d486] font-sans font-sans text-white leading-[21px] font-extrabold text-[16px] shadow-[rgba(2,6,38,0.1)_0px_5px_45px_0px] py-5 px-20 hover:bg-white hover:text-[rgb(2,6,38)]"
+              class="bg-[#01d486]   text-white leading-[21px] font-extrabold text-[16px] shadow-[rgba(2,6,38,0.1)_0px_5px_45px_0px] py-5 px-20 hover:bg-white hover:text-[rgb(2,6,38)]"
             >
               Speak to an Expert
             </NuxtLink>
             <NuxtLink
               to="/services/frontend"
-              class="ms-3 text-dark font-sans font-semibold underline hover:underline hover:decoration-[#01d486] decoration-2"
+              class="ms-3 text-dark  font-semibold underline hover:underline hover:decoration-[#01d486] decoration-2"
             >
               Learn more about services
             </NuxtLink>

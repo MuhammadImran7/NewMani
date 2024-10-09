@@ -1,14 +1,14 @@
 <template>
     <div class="container mx-auto text-center py-10">
-      <h2 class="text-center font-bold text-[#01d486] text-[16px] leading-none uppercase font-sans">
+      <h2 class="text-center font-bold text-[#01d486] text-[16px] leading-none uppercase">
         Client IT Solution
       </h2>
       <h3
-        class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black z-[1000] relative font-sans"
+        class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black z-[1000] relative"
       >
         Our Happy Clients
       </h3>
-      <p class="text-[17px] leading-[26px] font-sans font-normal text-[rgba(2,6,38,0.7)]">
+      <p class="text-[17px] leading-[26px] font-normal text-[rgba(2,6,38,0.7)]">
         See how MountainTech has helped businesses, delivering the best people and technology <br>
         unravelling complexity and bringing a sustainable competitive advantage.
       </p>
@@ -25,9 +25,9 @@
                 class="w-full h-auto testimonial-img"
               />
               <div class="absolute bottom-4 left-2 text-white bg-black bg-opacity-50 p-2">
-                <p class="ctext-sm leading-[1.43] font-thin font-sans text-white text-left font-sans">“ {{ testimonial.text }} ”</p>
-                <p class="text-[24px] font-bold text-[#01d486] leading-none font-sans capitalize text-left py-3 font-sans">{{ testimonial.name }}</p>
-                <p class="text-[16px] font-normal lowercase text-[#01d486] leading-none font-sans text-left font-sans  ">{{ testimonial.company }}</p>
+                <p class="ctext-sm leading-[1.43] font-thin text-white text-left">“ {{ testimonial.text }} ”</p>
+                <p class="text-[24px] font-bold text-[#01d486] leading-none capitalize text-left py-3">{{ testimonial.name }}</p>
+                <p class="text-[16px] font-normal lowercase text-[#01d486] leading-none text-left  ">{{ testimonial.company }}</p>
               </div>
             </div>
           </div>

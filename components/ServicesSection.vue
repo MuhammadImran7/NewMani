@@ -7,12 +7,12 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         <div class="col-span-1">
           <p
-            class="text-[#01d486] text-[14px] font-extrabold uppercase tracking-[0.5px] text-left font-sans"
+            class="text-[#01d486] text-[14px] font-extrabold uppercase tracking-[0.5px] text-left "
           >
             OUR SERVICES
           </p>
           <p
-            class="text-[32px] font-extrabold leading-[1.5em] text-left mt-4 font-sans mb-5"
+            class="text-[32px] font-extrabold leading-[1.5em] text-left mt-4  mb-5"
           >
             Technology services specifically <br />
             built for your business
@@ -23,14 +23,14 @@
             class="flex justify-between border-t-12 border-[#01d486] pt-[4rem]"
           >
             <p
-              class="text-[17px] leading-[26px] font-normal text-[rgba(2,6,38,0.7)] font-sans"
+              class="text-[17px] leading-[26px] font-normal text-[rgba(2,6,38,0.7)] "
             >
               Your business needs powerful solutions and <br />
               guidance to navigate today’s marketplace
             </p>
             <NuxtLink
               to="/our-company-about"
-              class="text-[13px] font-sans font-extrabold uppercase tracking-[0.93px] text-[#020626] bg-[#0206260D] hover:text-white hover:bg-[#01d486] no-underline border-none border-none rounded-none py-[15px] px-[15px] no-underline whitespace-nowrap w-[10rem] h-[3rem] text-center relative"
+              class="text-[13px]  font-extrabold uppercase tracking-[0.93px] text-[#020626] bg-[#0206260D] hover:text-white hover:bg-[#01d486] no-underline border-none border-none rounded-none py-[15px] px-[15px] no-underline whitespace-nowrap w-[10rem] h-[3rem] text-center relative"
               >VIEW MORE</NuxtLink
             >
           </div>
@@ -51,7 +51,7 @@
               class="serviceMain group text-center bg-white p-8 relative shadow-lg transition-all duration-200 ease-in-out text-black w-[230px] flex flex-col justify-center items-center hover:bg-[#01d486]"
             >
               <p
-                class="text-[17px] font-sans leading-[22px] mb-8 transition-all duration-200 ease-in-out text-[#020626] font-bold serviceName group-hover:text-white"
+                class="text-[17px]  leading-[22px] mb-8 transition-all duration-200 ease-in-out text-[#020626] font-bold serviceName group-hover:text-white"
               >
                 {{ service.title }}
               </p>
@@ -61,7 +61,7 @@
                 class="h-16 w-16"
               />
               <p
-                class="pt-4 font-sans font-semibold text-[#01d486] text-[15px] no-underline serviceBtn group-hover:text-white"
+                class="pt-4  font-semibold text-[#01d486] text-[15px] no-underline serviceBtn group-hover:text-white"
               >
                 Find Out More
               </p>

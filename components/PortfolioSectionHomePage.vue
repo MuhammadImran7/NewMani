@@ -1,12 +1,12 @@
 <template>
   <div class="container mx-auto text-center">
     <h1
-      class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black z-[1000] relative  font-sans"
+      class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black z-[1000] relative  "
     >
       Our Portfolio
     </h1>
     <p
-      class="relative text-[rgba(2,6,38,0.7)] text-center font-normal text-[17px] z-[1000] font-sans"
+      class="relative text-[rgba(2,6,38,0.7)] text-center font-normal text-[17px] z-[1000] "
     >
       We are MountainTech, a software development company specializing <br />
       in creating custom software solutions for businesses of all sizes.
@@ -15,12 +15,12 @@
       <img :src="portfolio" alt="" />
     </div>
     <h2
-      class="text-center font-bold text-[#01d486] text-[16px] leading-none uppercase font-sans"
+      class="text-center font-bold text-[#01d486] text-[16px] leading-none uppercase "
     >
       Client IT Solution
     </h2>
     <h3
-      class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black z-[1000] relative font-sans"
+      class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black z-[1000] relative "
     >
       Our Happy Clients
     </h3>
@@ -37,9 +37,9 @@
               class="w-full h-auto testimonial-img"
             />
             <div class="absolute bottom-4 left-2 text-white bg-black bg-opacity-50 p-2">
-              <p class="ctext-sm leading-[1.43] font-thin text-white text-left font-sans">“ {{ testimonial.text }} ”</p>
-              <p class="text-[24px] font-bold text-[#01d486] leading-none capitalize text-left py-3 font-sans">{{ testimonial.name }}</p>
-              <p class="text-[16px] font-normal lowercase text-[#01d486] leading-none text-left font-sans">{{ testimonial.company }}</p>
+              <p class="ctext-sm leading-[1.43] font-thin text-white text-left ">“ {{ testimonial.text }} ”</p>
+              <p class="text-[24px] font-bold text-[#01d486] leading-none capitalize text-left py-3 ">{{ testimonial.name }}</p>
+              <p class="text-[16px] font-normal lowercase text-[#01d486] leading-none text-left ">{{ testimonial.company }}</p>
             </div>
           </div>
         </div>
