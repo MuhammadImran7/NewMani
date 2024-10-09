@@ -19,15 +19,6 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@fortawesome/vue-fontawesome'],
   },
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: `@import "~/assets/scss/variables.scss";`,
-        },
-      },
-    },
-  },
 });
 // import { defineNuxtConfig } from 'nuxt3';
 
