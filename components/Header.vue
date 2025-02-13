@@ -23,7 +23,7 @@
             <nuxt-link to="/about" class="nav-item ">About</nuxt-link>
           </li>
           <li class="group relative">
-            <span @click="toggleDropdown" class="nav-item cursor-pointer service-link ">Services</span>
+            <span @click="toggleDropdown" class="nav-item cursor-pointer service-link ">Servicesss</span>
             <!-- Dropdown -->
             <ul :class="{'block': dropdownOpen, 'hidden': !dropdownOpen}" class="border top-position absolute left-0 md:group-hover:block bg-white shadow-md mt-2 rounded z-111 md:w-auto w-full">
               <li class="border-b">
